@@ -4,4 +4,4 @@
 [Script]
 MEIZU = type=cron,cronexp=20 */4 * * *,script-path=https://raw.githubusercontent.com/xzxxn777/quanx/main/MEIZU/MEIZU.js,script-update-interval=0,timeout=3600,wake-system=1
 MEIZU_LIVE = type=cron,cronexp=*/10 * * * *,script-path=https://raw.githubusercontent.com/xzxxn777/quanx/main/MEIZU/MEIZU_LIVE.js,script-update-interval=0,timeout=3600,wake-system=1
-MEIZU_RAIN = type=cron,cronexp=0,30 * * * *,script-path=https://raw.githubusercontent.com/xzxxn777/quanx/main/MEIZU/MEIZU_RAIN.js,script-update-interval=0,timeout=3600,wake-system=1
+MEIZU_RAIN = type=cron,cronexp=*/30 * * * *,script-path=https://raw.githubusercontent.com/xzxxn777/quanx/main/MEIZU/MEIZU_RAIN.js,script-update-interval=0,timeout=3600,wake-system=1
