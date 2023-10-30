@@ -1,0 +1,194 @@
+{
+  "id": "xzxxn",
+  "name": "雪之下雪乃",
+  "author": "@xzxxn",
+  "icon": "https://raw.githubusercontent.com/xzxxn777/quanx/main/picture/xzxxn.png",
+  "repo": "https://github.com/xzxxn777/quanx",
+  "apps": [
+    {
+      "id": "MEIZU",
+      "name": "魅族社区",
+      "keys": [
+        "MZ_PHONE",
+        "MZ_CODE",
+        "MEIZU"
+      ],
+      "author": "@xzxxn",
+      "repo": "https://github.com/xzxxn777/quanx",
+      "scripts": [
+        {
+          "name": "发送验证码（填手机号, 保存, 执行）",
+          "script": "https://raw.githubusercontent.com/xzxxn777/quanx/main/MEIZU/MEIZU_SendSms.js"
+        },
+        {
+          "name": "用验证码登录（填手机号, 验证码, 保存, 执行 ⚠️ 执行后 记得刷新）",
+          "script": "https://raw.githubusercontent.com/xzxxn777/quanx/main/MEIZU/MEIZU_SMS.js"
+        },
+        {
+          "name": "手动执行",
+          "script": "https://raw.githubusercontent.com/xzxxn777/quanx/main/MEIZU/MEIZU.js"
+        }
+      ],
+      "settings": [
+        {
+          "id": "MZ_PHONE",
+          "name": "魅族账号-手机号",
+          "val": "",
+          "type": "text",
+          "desc": "魅族账号-手机号"
+        },
+        {
+          "id": "MZ_CODE",
+          "name": "验证码",
+          "val": "",
+          "type": "text",
+          "desc": "验证码"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/xzxxn777/quanx/main/picture/meizu.png",
+        "https://raw.githubusercontent.com/xzxxn777/quanx/main/picture/meizu.png"
+      ]
+    },
+    {
+      "id": "xmSports",
+      "name": "小米运动",
+      "keys": [
+        "phone",
+        "pwd",
+        "xmMinStep",
+        "xmMaxStep"
+      ],
+      "settings": [
+        {
+          "id": "phone",
+          "name": "小米运动账号",
+          "val": "",
+          "type": "text",
+          "desc": "小米运动账号"
+        },
+        {
+          "id": "pwd",
+          "name": "小米运动密码",
+          "val": "",
+          "type": "text",
+          "desc": "小米运动密码"
+        },
+        {
+          "id": "xmMinStep",
+          "name": "最小运动步数",
+          "val": "19000",
+          "type": "text",
+          "desc": "需要修改最小的运动步数的数字,例如:19000"
+        },
+        {
+          "id": "xmMaxStep",
+          "name": "最大运动步数",
+          "val": "25000",
+          "type": "text",
+          "desc": "需要修改最小的运动步数的数字,例如:25000"
+        }
+      ],
+      "author": "@xzxxn",
+      "repo": "https://github.com/xzxxn777/quanx",
+      "script": "https://github.com/xzxxn777/quanx/blob/main/XmSport/XmSport.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/xmyd_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png"
+      ]
+    },
+    {
+      "id": "AHDX",
+      "name": "流量来了",
+      "keys": [
+        "AHDX"
+      ],
+      "settings": [
+        {
+          "id": "AHDX",
+          "name": "流量来了Body",
+          "val": "",
+          "type": "text",
+          "desc": "切换登录时获取Body"
+        }
+      ],
+      "author": "@xzxxn",
+      "repo": "https://github.com/xzxxn777/quanx",
+      "script": "https://raw.githubusercontent.com/xzxxn777/quanx/main/AHDX/AHDX.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/xmyd_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png"
+      ]
+    },
+    {
+      "id": "postql",
+      "name": "上传变量-青龙",
+      "keys": [
+        "qlUrl",
+        "clientSecret",
+        "clientId"
+      ],
+      "settings": [
+        {
+          "id": "qlUrl",
+          "name": "青龙ip地址",
+          "val": "",
+          "type": "text",
+          "desc": "必填"
+        },
+        {
+          "id": "clientSecret",
+          "name": "Client Secret",
+          "val": "",
+          "type": "text",
+          "desc": "必填"
+        },
+        {
+          "id": "clientId",
+          "name": "Client ID",
+          "val": "",
+          "type": "text",
+          "desc": "必填"
+        }
+      ],
+      "author": "@xzxxn",
+      "repo": "https://github.com/xzxxn777/quanx",
+      "script": "https://raw.githubusercontent.com/xzxxn777/quanx/main/AHDX/post-js.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/xmyd_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png"
+      ]
+    },
+    {
+      "id": "WYYXTOWNEXCHANGE",
+      "name": "网易严选水晶兑换",
+      "keys": [
+        "WYYXID",
+        "WYYXTYPE"
+      ],
+      "settings": [
+        {
+          "id": "WYYXID",
+          "name": "网易严选水晶兑换商品id",
+          "val": "",
+          "type": "text",
+          "desc": "运行一次查看日志获取"
+        },
+        {
+          "id": "WYYXTYPE",
+          "name": "网易严选水晶兑换商品type",
+          "val": "",
+          "type": "text",
+          "desc": "运行一次查看日志获取"
+        }
+      ],
+      "author": "@xzxxn",
+      "repo": "https://github.com/xzxxn777/quanx",
+      "script": "https://raw.githubusercontent.com/xzxxn777/quanx/main/WYYX/WYYX_TOWN_EXCHANGE.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/yanxuan.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/yanxuan.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+name: 流量来了获取body
+desc: 小程序切换登录时获取
+
+http:
+  mitm:
+    - llhb.ah163.net
+  script:
+    - match: ^https:\/\/llhb\.ah163\.net\/ah_red_come\/app\/getphone
+      name: AHDXBody
+      type: response
+      require-body: true
+      timeout: 120
+
+script-providers:
+  AHDXBody:
+    url: https://raw.githubusercontent.com/xzxxn777/quanx/main/AHDX/AHDX_getBody.js
+    interval: 86400

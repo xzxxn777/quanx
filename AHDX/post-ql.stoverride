@@ -1,0 +1,13 @@
+name: 上传变量-青龙
+desc: 变量：qlUrl //ip地址，clientSecret //Client Secret，clientId //Client ID
+
+cron:
+  script:
+    - name: postql
+      cron: '0 * * * *'
+      timeout: 120
+
+script-providers:
+  postql:
+    url: https://raw.githubusercontent.com/xzxxn777/quanx/main/AHDX/post-ql.js
+    interval: 86400
