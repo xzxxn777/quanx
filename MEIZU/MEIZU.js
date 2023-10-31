@@ -2,9 +2,9 @@
 [task_local]
 20 0,6,12,18 * * * https://raw.githubusercontent.com/xzxxn777/quanx/main/MEIZU/MEIZU.js, tag=魅族社区, img-url=https://raw.githubusercontent.com/xzxxn777/quanx/main/picture/meizu.png, enabled=true
 */
-const $ = new Env('魅族社区');
+const $ = new Env('MZ社区');
 let arr = ($.isNode() ? process.env.MEIZU : $.getjson("MEIZU")) || [];
-let activityId = [2304,2419,2459,2477]
+let activityId = [2419,2459,2477]
 let delay = 10000;
 let app_version= "6.2.9"
 
